@@ -1,0 +1,44 @@
+body{
+    width: 400px;
+    /* border-style: solid; */
+    margin: 0 auto;
+
+}
+
+.title, .subtitle{
+    text-align: center;
+}
+
+.title {
+    margin-bottom: -10px;
+}
+
+.subtitle{
+    margin-bottom: 30px;
+}
+
+.content{
+    /* max-width: 300px; */
+    margin: 0 auto;
+    /* border-style: solid; */
+    /* border-color: green; */
+    /* text-align: center; */
+}
+
+#table{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    /* border-color: red; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:    100px 100px 100px;
+}
+
+#sq1, #sq2, #sq3, #sq4, #sq5, #sq6, #sq7, #sq8, #sq9 {
+    border-style: solid;
+}
+
+
+
