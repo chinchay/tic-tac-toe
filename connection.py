@@ -1,0 +1,2 @@
+def getPlayer():
+    return "B"
