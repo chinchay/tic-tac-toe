@@ -19,13 +19,13 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     # player =  promptPlayer() #getPlayer() # "A" or "B"
-    player =  getPlayer() # "A" or "B"
-    squarePartnerTapped = getSquarePartnerTapped()
+    player =  channel.player #getPlayer() # "A" or "B"
+    # squarePartnerTapped = channel  #getSquarePartnerTapped()
 
     return render_template(
         "index.html",
         player = player,
-        squarePartnerTapped = squarePartnerTapped
+        # squarePartnerTapped = squarePartnerTapped
     )
 #
 
@@ -77,6 +77,10 @@ if __name__ == "__main__":
     #     channel = Channel()
 
     channel = Channel()
-    print("hola")
+    # print("hola")
 
-    app.run( )
+    if (channel.player == "1"):
+        app.run( port=5001)
+    elif (channel.player == "2"):
+        app.run( port=5002)
+    #

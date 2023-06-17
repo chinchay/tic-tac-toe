@@ -37,7 +37,8 @@ class Channel():
         return connection
 
     def start_server(self):
-        host = "192.168.0.218"
+        # host = "192.168.0.218"
+        host = "localhost"
         port = 8000
 
         server_socket = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
@@ -52,8 +53,9 @@ class Channel():
         print("The other player has connected!")
         return connection
 
-    def start_client():
-        host = "192.168.0.218"
+    def start_client(self):
+        # host = "192.168.0.218"
+        host = "localhost"
         port = 8000
 
         client_socket = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
