@@ -50,7 +50,7 @@ class Channel():
     def SendMessage(self, data):
         print("sending: ", data)
         print("I am player: ", self.player)
-        print(self.conn)
+        # print(self.conn)
 
         self.conn.send( data.encode("utf-8") )
 
