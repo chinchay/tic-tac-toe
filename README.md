@@ -36,6 +36,9 @@ and the other player should type `python app.py` and choose the client side `(2)
 A demonstration of the software running and a walkthrough of the code can be found [here](https://youtu.be/59-zcpUUY28). For this demonstration, I used a MacOS and an iPad with Python installed in both of them.
 
 
+![](images/tic_tac_toe.png)
+
+
 
 # Network Communication
 
